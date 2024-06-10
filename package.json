@@ -1,10 +1,10 @@
 {
-    "name": "oasis-developer",
-    "preductname": "Oasis Launcher",
-    "version": "2.1.0",
+    "name": "oxigen-developer",
+    "preductname": "Oxigen Launcher",
+    "version": "1.0.0",
     "description": "Creado Por LaterVICTOR & Drolet",
     "main": "src/app.js",
-    "url": "https://launcher.latervictor.dev/",
+    "url": "https://oxigen.latervictor.dev/",
     "author": {
         "name": "LaterVICTOR",
         "email": "latervictormc@gmail.com",
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://launcher.latervictor.dev/OASIS_SOLO.png"
+        "icon": "node build.js --icon=https://oxigen.latervictor.dev/OASIS_SOLO.png"
     },
     "license": "CCANC",
     "nodemonConfig": {

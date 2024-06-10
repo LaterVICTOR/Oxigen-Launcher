@@ -112,7 +112,7 @@ ipcMain.on('new-status-discord-jugando', async (event, status) => {
                 buttons: [
                     {
                         label: 'Visitar Oxigen Studio',
-                        url: 'https://latervictor.dev/',
+                        url: 'https://oxigenmc.es/',
                     },
                ],
                 instance: false,
